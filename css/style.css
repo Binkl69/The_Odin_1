@@ -1,8 +1,41 @@
 body {
     display: flex;
-    flex-direction: row;
+   
+}
+header > * {
+    display: flex;
+    justify-content: center;
 }
 
-.headers {
+
+.LOGO {
+display: flex;
 color: red;
+flex-wrap: nowrap;
+justify-content: center;
+border: 2px solid black;
+padding: 10px;
+--border-width: 5px;
+border-color: rgb(0, 255, 106);
+margin: 2px;
+}
+
+.sublinks {
+    display: flex;
+   justify-content: flex-end;
+   flex-basis: 200px;
+   color: green;
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   gap: 1rem;
+   
+  
+}
+
+.sublinks li {
+flex-grow: 1;
+flex-shrink: 1;
+border: 2px solid black;
+border-color: blue;
 }
